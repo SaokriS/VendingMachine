@@ -29,9 +29,8 @@ public class Main {
            System.out.println("Вы можете приобрести: " + "\n Milkyway \n Цена - " + milkywayPrice + " руб.");
            isCanBuy = true;
        }
-       if (isCanBuy)  {
-               System.out.println("К сожалению у вас недостаточно денег!");
-
+       if (isCanBuy == false)  {
+           System.out.println("К сожалению у вас недостаточно денег!");
            }
     }
 }
